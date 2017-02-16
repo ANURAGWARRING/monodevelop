@@ -18,19 +18,10 @@
 		</Category>
 	</Extension>
 
-	<Extension path="/MonoDevelop/Ide/ProjectTemplates">
-		<ProjectTemplate
-			id="DotNetCoreConsoleProject"
-			file="Templates/Projects/Console/ConsoleProject.xpt.xml" />
-		<ProjectTemplate
-			id="DotNetCoreLibraryProject"
-			file="Templates/Projects/Library/LibraryProject.xpt.xml" />
-		<ProjectTemplate
-			id="DotNetCoreEmptyWebProject"
-			file="Templates/Projects/EmptyWeb/EmptyWebProject.xpt.xml" />
-		<ProjectTemplate
-			id="DotNetCoreEmptyWebProject"
-			file="Templates/Projects/XUnitTest/XUnitTestProject.xpt.xml" />
+	<Extension path="/MonoDevelop/Ide/TemplatesPaths">
+		<TemplatesPath
+			id="DotNetCore"
+			path="Templates" />
 	</Extension>
 
 	<Extension path="/MonoDevelop/Ide/ProjectTemplateWizards">
